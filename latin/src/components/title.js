@@ -1,9 +1,10 @@
 import React from 'react';
 
-const Title = () => {
+function Title(props) {
+    const text = props.text;
     return(
         <div>
-        <h1 style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>Role of Religion in the life of Roman Citizens</h1>
+        <h1 style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>{text}</h1>
         </div>
     )
 }

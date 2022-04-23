@@ -5,6 +5,7 @@ import Introduction from './components/introduction';
 
 
 
+
 class App extends React.Component {
 
 
@@ -15,7 +16,7 @@ class App extends React.Component {
   render() {
     return (
       <div className='body'>
-        <Title />
+
         <Introduction page={this.state.pagee} />
 
         <div className='navbar'>

@@ -1,9 +1,10 @@
 import React from 'react';
+import Title from './title';
 
 
 function Idea() {
     return(
-        <h1>This is a test</h1>
+        <Title text={"Idea of Roman Religion"}/>
     )
 }
 
